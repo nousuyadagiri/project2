@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Krub:wght@600&family=Montserrat:wght@700&family=Open+Sans:wght@300;400;700&family=Oswald&family=Quicksand:wght@300;400;500&family=Raleway:ital,wght@0,300;0,400;0,500;1,600&family=Roboto:wght@400;700&family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+}
+
+.container {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid rgb(228, 226, 226);
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(78, 77, 77);
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(31, 4, 31);
+  margin-bottom: 10px;
+}
+
+.followers-info {
+  background: rgb(247, 239, 246);
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 15px;
+  color: rgb(0, 3, 26);
+  text-align: start;
+  font-weight: 700;
+}
+
+.label input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(177, 174, 176);
+  background-color: white;
+  border-radius: 4px;
+  font-size: 13px;
+  transition: 500ms ease all;
+}
+
+.label input:focus {
+  outline: none;
+  border: 01.2px solid rgb(67, 92, 175);
+  transform: scale(0.98);
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#chk {
+  margin: 1.5px 10px 1.5px 1.5px;
+  cursor: pointer;
+}
+
+.checkbox p {
+  color: rgb(4, 8, 41);
+  font-weight: medium;
+}
+
+span {
+  color: rgb(196, 21, 108);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: rgb(8, 39, 216);
+  border: 1px solid rgb(177, 174, 176);
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  transition: 500ms ease all;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(8, 24, 112);
+  transform: scale(0.99);
+}
